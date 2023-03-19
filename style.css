@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+h1 {
+  font-size: 96px;
+}
+.hero {
+  background: #f9f4ff;
+  text-align: center;
+}
+.hero p {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+a {
+  background: #6c63ff;
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+}
