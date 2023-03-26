@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #a070a1;
   --secondary-color: #f9f4ff;
   --heading-font-family: "Playfair Display", serif;
   --defult-font-family: "Poppins", sans-serif;
@@ -116,6 +116,34 @@ p {
 .img-f1 {
   border: 60px solid var(--secondary-color);
 }
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+nav a:hover, 
+nav li.active a {
+  color: var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
+ 
 
 @media (max-width: 900px) {
   h1 {
