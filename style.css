@@ -1,6 +1,6 @@
 :root {
   --branding-color: #a070a1;
-  --secondary-color: #f9f4ff;
+  --secondary-color: #F3F2EF;
   --heading-font-family: "Playfair Display", serif;
   --defult-font-family: "Poppins", sans-serif;
 }
@@ -26,18 +26,18 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-size: 48px;
 }
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 30px;
 }
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-family: var(--defult-font-family);
@@ -53,7 +53,7 @@ p {
   line-height: 1.5;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 40px 20px;
 }
 
 .content h1 {
@@ -108,17 +108,28 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: var(--secondary-color);
+}
 
 .project-description {
   padding: 100px 60px;
 }
 
 .img-f1 {
-  border: 60px solid var(--secondary-color);
+  padding-top: 100px;
 }
 
 .logo {
   max-height: 40px;
+}
+.logo:hover {
+  
+  background: var(--secondary-color);
+  padding: 5px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
 }
 
 nav {
@@ -185,10 +196,11 @@ footer .social-links a:hover {
     font-size: 44px;
     line-height: 1.5;
   }
+  
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
   .hero {
@@ -197,6 +209,17 @@ footer .social-links a:hover {
   .content {
     text-align: center;
     padding: 0;
+  }
+  .content h1 {
+    font-size: 40px;
+    line-height: 1.3;
+  }
+  .content-container {
+    padding: 0 20px;
+  }
+  .my-photo {
+    display: block;
+    margin: 0 auto;
   }
   .project-description {
     padding: 0;

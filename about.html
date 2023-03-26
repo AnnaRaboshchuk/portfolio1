@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Something about Anna Raboshchuk as a front-end engineer from Ukraine and based in Poland"
+    />
+    <title>About Anna Raboshchuk</title>
     <!--bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
@@ -34,6 +38,21 @@
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="images/ar1.png" class="logo" alt="Anna's Logo" />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About page">About</a>
+          </li>
+          <li><a href="/work.html" title="Work page">Work</a></li>
+          <li><a href="/contact.html" title="Contact page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-md-6">
@@ -43,18 +62,82 @@
               Front-end Developer, from Ukraine and based in Poland.
             </h2>
             <p class="mb-4">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
+              👋Hello, my name is Anna and I am just starting in front-end
+              development. I'm learning in The SheCodes platform now. I'm doing
+              my best to be a professional in a future. I like to learn
+              something new. Hope you will enjoy some of my projects.
             </p>
-            <a href="" class="btn btn-branding">See my projects</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding"
+              title="See my projects"
+              >See my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/anna_.png" alt="My photo" class="image-fluid my-photo" />
+          <img
+            src="images/anna_.png"
+            alt="Anna's photo"
+            class="image-fluid my-photo"
+          />
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-4 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-4"
+              title="Contact me"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:anna.raboshchuk@gmail.com"
+            class="email-link mb-5"
+            title="Email Anna"
+            >anna.raboshchuk@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.facebook.com/ann.raboshchuk"
+            target="_blank"
+            title="Facebook Profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://github.com/AnnaRaboshchuk"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/anna-raboshchuk-22059824a/"
+            target="_blank"
+            title="LinkedIn Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          👉This project was coded by Anna Raboshchuk, and
+          <a
+            href="https://github.com/AnnaRaboshchuk/portfolio1"
+            target="_blank"
+          >
+            open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
