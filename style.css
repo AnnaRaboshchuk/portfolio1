@@ -66,7 +66,12 @@ p {
 
 .content h3 {
   font-size: 24px;
+  line-height: 1.5;
   font-family: var(--defult-font-family);
+}
+
+.content p {
+  font-size: 14px;
 }
 
 .content {
@@ -77,6 +82,12 @@ p {
   border-radius: 50px;
   height: 500px;
   
+}
+
+.image-work {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 
@@ -117,7 +128,7 @@ p {
   .hero {
     padding: 70px 20px;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
@@ -125,4 +136,6 @@ p {
     padding: 0;
     text-align: center;
   }
+
+  
 }
